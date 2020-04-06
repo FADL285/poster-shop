@@ -105,7 +105,7 @@ body {
     border-radius: 2px;
 }
 
-.search-bar > input[type=text] {
+.search-bar > input[type=search] {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     flex-basis: 50%;
@@ -323,7 +323,7 @@ body {
         margin: -7px 0 0 4px;
     }
 
-    .search-bar > input[type=text] {
+    .search-bar > input[type=search] {
         flex-basis: 100%;
     }
 
@@ -365,4 +365,15 @@ body {
     #product-list-bottom > div {
         display: none;
     }
+}
+/*Fade Transition*/
+.fade-enter {
+	opacity: 0;
+}
+.fade-enter-active {
+	transition: opacity 0.75s;
+}
+.fade-leave-active {
+	opacity: 0;
+	transition: opacity 0.75s;
 }
